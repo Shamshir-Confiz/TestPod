@@ -7,11 +7,12 @@
 //
 
 import UIKit
-
+import TestPod
 class ViewController: UIViewController {
-
+    var test = CustomPodTest()
     override func viewDidLoad() {
         super.viewDidLoad()
+        test.printPublicLogs()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
